@@ -1,0 +1,19 @@
+{
+    "name": "weighted_sum_interval_tree",
+    "version": "0.0.0",
+    "repo": "goodcleanfun/weighted_sum_interval_tree",
+    "description": "A dynamic, generic interval tree which keeps track of a set of intervals and evaluates the sum of all intervals containing a query point",
+    "keywords": [],
+    "license": "MIT",
+    "development": {
+      "silentbicycle/greatest": "*"
+    },
+    "dependencies": {
+      "goodcleanfun/binary_tree": "*",
+      "goodcleanfun/memory_pool": "*"
+    },
+    "src": [
+      "src/weighted_sum_interval_tree.h"
+    ]
+    
+  }
